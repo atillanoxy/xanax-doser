@@ -107,8 +107,11 @@ class SendPOSTThread(threading.Thread):
 			pass
 
 
-# TODO:
-# check if the site stop responding and alert
+"""
+#Her sanatçı kendi imzasını bırakır XanaxEUW
+#E harfine aşığım	
+#https://www.youtube.com/watch?v=MSYjLZEiZ-w
+"""
 
 def main(argv):
 	parser = argparse.ArgumentParser(description='Sending unlimited amount of requests in order to perform DoS attacks. Written by XanaxEUW')
