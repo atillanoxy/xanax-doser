@@ -57,12 +57,12 @@ def initHeaders():
 
 def handleStatusCodes(status_code):
 	global request_counter
-	sys.stdout.write("\r%i requests has been sent" % request_counter)
+	sys.stdout.write("\r%i requests has been sent <3 E harfine aşığım Xanax#6963" % request_counter)
 	sys.stdout.flush()
 	if status_code == 429:
-			printMsg("You have been throttled")
+			printMsg("429 Too Many Requests Hatası alındı ve sen kısıtlandın <3 E harfine aşığım Xanax#6963")
 	if status_code == 500:
-		printMsg("Status code 500 received")
+		printMsg("Sunucu kodu 500 alındı site kapanmıştır <3 E harfine aşığım Xanax#6963")
 
 def sendGET(url):
 	global request_counter
@@ -111,7 +111,7 @@ class SendPOSTThread(threading.Thread):
 # check if the site stop responding and alert
 
 def main(argv):
-	parser = argparse.ArgumentParser(description='Sending unlimited amount of requests in order to perform DoS attacks. Written by Barak Tawily')
+	parser = argparse.ArgumentParser(description='Sending unlimited amount of requests in order to perform DoS attacks. Written by XanaxEUW')
 	parser.add_argument('-g', help='Specify GET request. Usage: -g \'<url>\'')
 	parser.add_argument('-p', help='Specify POST request. Usage: -p \'<url>\'')
 	parser.add_argument('-d', help='Specify data payload for POST request', default=None)
