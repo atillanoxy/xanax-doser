@@ -57,7 +57,7 @@ def initHeaders():
 
 def handleStatusCodes(status_code):
 	global request_counter
-	sys.stdout.write("\r%i requests has been sent <3 E harfine aşığım Xanax#6963" % request_counter)
+	sys.stdout.write("\r%i İstek gönderildi <3 E harfine aşığım Xanax#6963" % request_counter)
 	sys.stdout.flush()
 	if status_code == 429:
 			printMsg("429 Too Many Requests Hatası alındı ve sen kısıtlandın <3 E harfine aşığım Xanax#6963")
