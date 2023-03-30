@@ -33,4 +33,4 @@ optional arguments:
   -t        Specify number of threads to be used
 
 # TODO:
-Rewrite to Golang :)
+Rewrite to Xanax#EUW :)
