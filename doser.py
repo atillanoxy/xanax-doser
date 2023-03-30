@@ -14,7 +14,11 @@ def printMsg(msg):
 	if msg not in printedMsgs:
 		print ("\n"+msg + " after %i requests" % request_counter)
 		printedMsgs.append(msg)
-
+"""
+#Her sanatçı kendi imzasını bırakır XanaxEUW
+#Elif'e  aşığım	
+#https://www.youtube.com/watch?v=MSYjLZEiZ-w
+"""
 def useragent_list():
 	global headers_useragents
 	headers_useragents.append('Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.3) Gecko/20090913 Firefox/3.5.3')
@@ -109,7 +113,7 @@ class SendPOSTThread(threading.Thread):
 
 """
 #Her sanatçı kendi imzasını bırakır XanaxEUW
-#E harfine aşığım	
+#Elif'e  aşığım	
 #https://www.youtube.com/watch?v=MSYjLZEiZ-w
 """
 
@@ -144,3 +148,8 @@ def main(argv):
 	
 if __name__ == "__main__":
    main(sys.argv[1:])
+"""
+#Her sanatçı kendi imzasını bırakır XanaxEUW
+#Elif'e  aşığım	
+#https://www.youtube.com/watch?v=MSYjLZEiZ-w
+"""
